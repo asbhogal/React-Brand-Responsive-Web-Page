@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>React-Brand-Responsive-Web-Page</h1>
+<h1>React - Brand Responsive Web Page</h1>
 
 </div>
 
