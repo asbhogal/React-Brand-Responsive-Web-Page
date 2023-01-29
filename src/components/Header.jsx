@@ -2,10 +2,10 @@ import mainLogoBlack from "../assets/logos/brand-logo-black.svg";
 
 const Header = () => {
     return (
-        <header>
+        <header className="Header">
             <img src={ mainLogoBlack }></img>
             <nav>
-                <ul>
+                <ul className="HeaderNavLinks">
                     <li>Link 1</li>
                     <li>Link 2</li>
                     <li>Link 3</li>
