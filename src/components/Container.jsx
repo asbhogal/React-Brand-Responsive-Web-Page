@@ -11,6 +11,7 @@ const Container = () => {
                             <h2>Separated they live in Bookmarks right at the coast of the famous Semantics, large language</h2>
                             <div className="HeroCTASection">
                                 <CTAButtons />
+                                <p>5,000 people like you have purchased this product!</p>
                             </div>
                         </div>
                     </article>

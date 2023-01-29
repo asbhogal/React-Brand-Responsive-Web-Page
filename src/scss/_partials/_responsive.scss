@@ -1,3 +1,5 @@
+@use './variables' as *;
+
 /****** WIDE - 1440px+ ******/
 
 @media only screen and (1441px <= width) {
@@ -6,17 +8,36 @@
         .TopSection {
             display: grid;
             grid-template-columns: auto auto;
+            height: 556px;
             width: 1107px;
             margin: 0 auto;
             .LeftContent {
                 height: 288px;
-                width: 457px;
-                padding-top: 134px;
-                h1 {
-                    font-size: 56px;
-                    font-weight: 900;
-                    line-height: 60px;
-                    letter-spacing: -1px;
+                .LeftContentText {
+                    width: 457px;
+                    h1 {
+                        font-size: 56px;
+                        font-weight: 900;
+                        line-height: 60px;
+                        letter-spacing: -1px;
+                        padding-bottom: 24px;
+                    }
+                    h2 {
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 28px;
+                        padding-bottom: 40px;
+                    }
+                }
+                .HeroCTASection {
+                    display: flex;
+                    align-items: center;
+                    > p {
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 20px;
+                        padding-left: 20px;
+                    }
                 }
             }
         }
@@ -35,6 +56,11 @@
             height: 460px;
         }
     }
+
+    .SecondSection {
+        grid-template-columns: auto auto;
+        height: 620px;
+    }
 }
 
 /****** DESKTOP - 1025PX -> 1440px ******/
@@ -45,24 +71,36 @@
         .TopSection {
             display: grid;
             grid-template-columns: auto auto;
+            height: 556px;
             width: 1140px;
             margin: 0 auto;
             .LeftContent {
                 height: 288px;
-                width: 457px;
-                padding-top: 134px;
-                h1 {
-                    font-size: 56px;
-                    font-weight: 900;
-                    line-height: 60px;
-                    letter-spacing: -1px;
-                    padding-bottom: 24px;
+                .LeftContentText {
+                    width: 457px;
+                    h1 {
+                        font-size: 56px;
+                        font-weight: 900;
+                        line-height: 60px;
+                        letter-spacing: -1px;
+                        padding-bottom: 24px;
+                    }
+                    h2 {
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 28px;
+                        padding-bottom: 40px;
+                    }
                 }
-                h2 {
-                    font-weight: 400;
-                    font-size: 18px;
-                    line-height: 28px;
-                    padding-bottom: 40px;
+                .HeroCTASection {
+                    display: flex;
+                    align-items: center;
+                    > p {
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 20px;
+                        padding-left: 20px;
+                    }
                 }
             }
         }
@@ -81,6 +119,11 @@
             height: 460px;
         }
     }
+
+    .SecondSection {
+        grid-template-columns: auto auto;
+        height: 620px;
+    }
 }
 
 /****** TABLET (LARGE) - 745px --> 1024px ******/
@@ -88,6 +131,11 @@
 @media only screen and (745px <= width <= 1024px) {
     .HeroSection {
         display: inline-grid;
+    }
+
+    .SecondSection {
+        grid-template-rows: auto auto;
+        height: 895px;
     }
 }
 
