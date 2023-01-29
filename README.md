@@ -4,6 +4,8 @@
 
 </div>
 
+![Project-Cover](https://img.playbook.com/1fvrzPLUF92opIvV8lQHVr_mho8cA30aqE8VNNm9xoM/w:1000/Z3M6Ly9icmFuZGlm/eS11c2VyY29udGVu/dC1kZXYvZmQzZmFh/ZTctZWQxYi00ZWVk/LWJiNjMtNTJmOTdi/ZDU3MGE0.webp)
+
 This project is in two parts:
 
  1. A mockup of 5 responsive screens created in Figma from assets provided by Flux Academy
