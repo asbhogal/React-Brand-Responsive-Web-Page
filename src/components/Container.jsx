@@ -2,9 +2,9 @@ const Container = () => {
     return (
         <main className="MainContainer">
             <section className="HeroSection">
-                <article className="LeftContent"></article>
-                <article className="RightContent"></article>
-                <article className="SummaryContent"></article>
+                <article className="LeftContent">Left Content</article>
+                <article className="RightContent">Right Content</article>
+                <article className="SummaryContent">Bottom Content</article>
             </section>
             <section className="SecondSection">
                 <article className="LeftContent"></article>
