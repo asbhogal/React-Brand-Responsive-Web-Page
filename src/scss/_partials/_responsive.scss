@@ -8,6 +8,17 @@
             grid-template-columns: auto auto;
             width: 1107px;
             margin: 0 auto;
+            .LeftContent {
+                height: 288px;
+                width: 457px;
+                padding-top: 134px;
+                h1 {
+                    font-size: 56px;
+                    font-weight: 900;
+                    line-height: 60px;
+                    letter-spacing: -1px;
+                }
+            }
         }
         .SummaryContent {
             height: 256px;
@@ -36,6 +47,24 @@
             grid-template-columns: auto auto;
             width: 1140px;
             margin: 0 auto;
+            .LeftContent {
+                height: 288px;
+                width: 457px;
+                padding-top: 134px;
+                h1 {
+                    font-size: 56px;
+                    font-weight: 900;
+                    line-height: 60px;
+                    letter-spacing: -1px;
+                    padding-bottom: 24px;
+                }
+                h2 {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 28px;
+                    padding-bottom: 40px;
+                }
+            }
         }
         .SummaryContent {
             height: 256px;

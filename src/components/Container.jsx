@@ -5,7 +5,7 @@ const Container = () => {
         <main className="MainContainer">
             <section className="HeroSection">
                 <div className="TopSection">
-                    <article className="LeftContent">Left Content
+                    <article className="LeftContent">
                         <div className="LeftContentText">
                             <h1>Medium length display headline</h1>
                             <h2>Separated they live in Bookmarks right at the coast of the famous Semantics, large language</h2>
