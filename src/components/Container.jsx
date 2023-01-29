@@ -1,8 +1,15 @@
 const Container = () => {
     return (
-        <main>
-            <section className="HeroSection"></section>
-            <section className="SecondSection"></section>
+        <main className="MainContainer">
+            <section className="HeroSection">
+                <article className="LeftContent"></article>
+                <article className="RightContent"></article>
+                <article className="SummaryContent"></article>
+            </section>
+            <section className="SecondSection">
+                <article className="LeftContent"></article>
+                <article className="RightContent"></article>
+            </section>
             <section className="TestimonialsSection"></section>
             <section className="CTASection"></section>
         </main>
