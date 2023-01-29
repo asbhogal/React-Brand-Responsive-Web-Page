@@ -2,7 +2,7 @@
 
 <h1>React - Brand Responsive Web Page</h1>
 
-![](https://api.checklyhq.com/v1/badges/checks/514f0279-bb3d-40f2-bd25-a0bc3263b01f?style=for-the-badge&theme=dark&responseTime=true) ![](https://api.checklyhq.com/v1/badges/checks/514f0279-bb3d-40f2-bd25-a0bc3263b01f?style=for-the-badge&theme=dark) <br><br> ![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/React-Digital-Business-Cards/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/React-Digital-Business-Cards?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/React-Digital-Business-Cards?color=blueviolet&style=for-the-badge&labelColor=000)
+![](https://api.checklyhq.com/v1/badges/checks/b40b36ea-d9c0-4c40-ad73-dd34d37849fb?style=for-the-badge&theme=dark) ![](https://api.checklyhq.com/v1/badges/checks/b40b36ea-d9c0-4c40-ad73-dd34d37849fb?style=for-the-badge&theme=dark&responseTime=true) <br><br> ![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/React-Brand-Responsive-Web-Page/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/React-Brand-Responsive-Web-Page?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/React-Brand-Responsive-Web-Page?color=blueviolet&style=for-the-badge&labelColor=000)
 
 ![Project-Cover](https://github.com/asbhogal/React-Brand-Responsive-Web-Page/blob/main/src/assets/images/GitHub%20Repo%20REAMDE%20Image%20-%20Brand%20Responsive%20Web%20Page.png?raw=true)
 
@@ -33,7 +33,7 @@ This project is in two parts:
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" alt="Figma logo" width="50" height="50" style="max-width:100%;"></a>
 
 <strong>:link: Links</strong><br>
- - <a target="_blank" href="https://React-Airbnb-Experiences-Landing-Page.vercel.app/">Brand - Responsive Web Page</a>
+ - <a target="_blank" href="https://brand-responsive-web-page.vercel.app/">Brand - Responsive Web Page</a>
  - <a target="_blank" href="https://www.figma.com/community/file/1187868244670810561">Figma Community Project Templates</a>
  - <a target="_blank" href="https://www.youtube.com/watch?v=FjuHXhwr5Q8">Flux Academy Course</a>
 
