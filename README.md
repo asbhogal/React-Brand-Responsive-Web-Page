@@ -30,6 +30,11 @@ This project is in two parts:
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/webpack/webpack-original.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/webpack/webpack-original.svg" alt="Webpack logo" width="50" height="50" style="max-width:100%;"></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" alt="Figma logo" width="50" height="50" style="max-width:100%;"></a>
 
+<strong>:link: Links</strong><br>
+ - <a target="_blank" href="https://React-Airbnb-Experiences-Landing-Page.vercel.app/">Brand - Responsive Web Page</a>
+ - <a target="_blank" href="https://www.figma.com/community/file/1187868244670810561">Figma Community Project Templates</a>
+ - <a target="_blank" href="https://www.youtube.com/watch?v=FjuHXhwr5Q8">Flux Academy Course</a>
+
 <strong>Disclaimer</strong>
 
  All assets and trademarks used within this project remain the sole ownership of the copyright holder(s) where applicable.
