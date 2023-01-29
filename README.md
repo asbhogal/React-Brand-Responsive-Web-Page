@@ -2,9 +2,11 @@
 
 <h1>React - Brand Responsive Web Page</h1>
 
-</div>
+![](https://api.checklyhq.com/v1/badges/checks/514f0279-bb3d-40f2-bd25-a0bc3263b01f?style=for-the-badge&theme=dark&responseTime=true) ![](https://api.checklyhq.com/v1/badges/checks/514f0279-bb3d-40f2-bd25-a0bc3263b01f?style=for-the-badge&theme=dark) <br><br> ![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/React-Digital-Business-Cards/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/React-Digital-Business-Cards?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/React-Digital-Business-Cards?color=blueviolet&style=for-the-badge&labelColor=000)
 
 ![Project-Cover](https://github.com/asbhogal/React-Brand-Responsive-Web-Page/blob/main/src/assets/images/GitHub%20Repo%20REAMDE%20Image%20-%20Brand%20Responsive%20Web%20Page.png?raw=true)
+
+</div>
 
 This project is in two parts:
 
