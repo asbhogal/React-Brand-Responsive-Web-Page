@@ -4,7 +4,7 @@
 
 </div>
 
-![Project-Cover](https://img.playbook.com/1fvrzPLUF92opIvV8lQHVr_mho8cA30aqE8VNNm9xoM/w:1000/Z3M6Ly9icmFuZGlm/eS11c2VyY29udGVu/dC1kZXYvZmQzZmFh/ZTctZWQxYi00ZWVk/LWJiNjMtNTJmOTdi/ZDU3MGE0.webp)
+![Project-Cover](https://github.com/asbhogal/React-Brand-Responsive-Web-Page/blob/main/src/assets/images/GitHub%20Repo%20REAMDE%20Image%20-%20Brand%20Responsive%20Web%20Page.png?raw=true)
 
 This project is in two parts:
 
