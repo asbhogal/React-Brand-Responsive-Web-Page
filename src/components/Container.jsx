@@ -7,24 +7,24 @@ const Container = () => {
                 <article className="SummaryContent">
                     <ul className="SummaryContentList">
                         <li>
-                            <section>
+                            <div>
                                 <span className="FeaturePoint"></span>
                                 <h3>Feature one</h3>
-                            </section>
+                            </div>
                             <p>All base UI elements are made using Nested Symbols and shared styles that are logically connected with one another.</p>
                         </li>
                         <li>
-                            <section>
+                            <div>
                                 <span className="FeaturePoint"></span>
                                 <h3>Feature two</h3>
-                            </section>
+                            </div>
                             <p>All base UI elements are made using Nested Symbols and shared styles that are logically connected with one another.</p>
                         </li>
                         <li>
-                            <section>
+                            <div>
                                <span className="FeaturePoint"></span>
                                <h3>Feature three</h3>
-                            </section>
+                            </div>
                             <p>All base UI elements are made using Nested Symbols and shared styles that are logically connected with one another.</p>
                         </li>
                     </ul>
