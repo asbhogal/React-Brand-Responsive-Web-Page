@@ -1,3 +1,4 @@
+import CTAButton from "./CTAButtons";
 import mainLogoBlack from "../assets/logos/brand-logo-black.svg";
 
 const Header = () => {
@@ -13,7 +14,7 @@ const Header = () => {
                     <li>Link 5</li>
                 </ul>
             </nav>
-            <button className="CTAButton">Action</button>
+            <CTAButton />
         </header>
     )
 };

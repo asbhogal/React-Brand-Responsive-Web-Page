@@ -1,9 +1,21 @@
+import CTAButtons from "./CTAButtons";
+
 const Container = () => {
     return (
         <main className="MainContainer">
             <section className="HeroSection">
-                <article className="LeftContent">Left Content</article>
-                <article className="RightContent">Right Content</article>
+                <div className="TopSection">
+                    <article className="LeftContent">Left Content
+                        <div className="LeftContentText">
+                            <h1>Medium length display headline</h1>
+                            <h2>Separated they live in Bookmarks right at the coast of the famous Semantics, large language</h2>
+                            <div className="HeroCTASection">
+                                <CTAButtons />
+                            </div>
+                        </div>
+                    </article>
+                    <article className="RightContent">Right Content</article>
+                </div>
                 <article className="SummaryContent">
                     <ul className="SummaryContentList">
                         <li>

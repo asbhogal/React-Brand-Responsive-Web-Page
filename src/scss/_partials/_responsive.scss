@@ -3,9 +3,21 @@
 @media only screen and (1441px <= width) {
     .HeroSection {
         display: inline-grid;
+        .TopSection {
+            display: grid;
+            grid-template-columns: auto auto;
+            width: 1107px;
+            margin: 0 auto;
+        }
         .SummaryContent {
-            grid-column: 1 / 3;
             height: 256px;
+            .SummaryContentList {
+                width: 1112px;
+                margin: 0 auto;
+                li > div {
+                    padding-bottom: 16px;
+                }
+            }
         }
         .LeftContent,
         .RightContent {
@@ -19,9 +31,21 @@
 @media only screen and (1025px <= width <= 1440px) {
     .HeroSection {
         display: inline-grid;
+        .TopSection {
+            display: grid;
+            grid-template-columns: auto auto;
+            width: 1140px;
+            margin: 0 auto;
+        }
         .SummaryContent {
-            grid-column: 1 / 3;
             height: 256px;
+            .SummaryContentList {
+                width: 1140px;
+                margin: 0 auto;
+                li > div {
+                    padding-bottom: 16px;
+                }
+            }
         }
         .LeftContent,
         .RightContent {
