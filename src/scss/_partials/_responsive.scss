@@ -9,8 +9,6 @@
             display: grid;
             grid-template-columns: auto auto;
             align-items: center;
-            height: 428px;
-            width: 1107px;
             margin: 0 auto;
             padding: 64px 0;
             .LeftContent {
@@ -83,8 +81,6 @@
             display: grid;
             grid-template-columns: auto auto;
             align-items: center;
-            height: 428px;
-            width: 1140px;
             padding: 64px 0;
             margin: 0 auto;
             .LeftContent {
@@ -166,6 +162,10 @@
     .HeroSection {
         display: inline-grid;
     }
+
+    .SummaryContentList {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (width <= 600px) {
@@ -179,5 +179,9 @@
 @media only screen and (width <= 375px) {
     .HeroSection {
         display: inline-grid;
+    }
+    
+    .SummaryContentList {
+        flex-direction: column;
     }
 }
