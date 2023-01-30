@@ -1,4 +1,6 @@
 import CTAButtons from "./CTAButtons";
+import heroImage from "../assets/images/hero-img.jpg";
+import secondSectionImage from "../assets/images/section2-img.jpg";
 
 const Container = () => {
     return (
@@ -15,7 +17,9 @@ const Container = () => {
                             </div>
                         </div>
                     </article>
-                    <article className="RightContent">Right Content</article>
+                    <article className="RightContent">
+                        <img className="HeroImage" src={ heroImage }></img>
+                    </article>
                 </div>
                 <article className="SummaryContent">
                     <ul className="SummaryContentList">
@@ -44,8 +48,23 @@ const Container = () => {
                 </article>
             </section>
             <section className="SecondSection">
-                <article className="LeftContent"></article>
-                <article className="RightContent"></article>
+                <article className="LeftContent">
+                    <img className="SecondSectionImage" src={ secondSectionImage }></img>
+                </article>
+                <article className="RightContent">
+                    <h2>
+                    Long headline on two lines to turn your visitors into users and achieve more
+                    </h2>
+                    <h3>
+                    Separated they live in Bookmarks right at the coast of the famous Semantics, large language ocean
+                    </h3>
+                    <ul>
+                        <li>Showcase and embed your work with</li>
+                        <li>Publish across social channels in a click</li>
+                        <li>Sell your videos worldwide</li>
+                        <li>Embed your work with</li>
+                    </ul>
+                </article>
             </section>
             <section className="TestimonialsSection"></section>
             <section className="CTASection"></section>

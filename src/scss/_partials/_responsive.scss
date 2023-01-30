@@ -8,9 +8,11 @@
         .TopSection {
             display: grid;
             grid-template-columns: auto auto;
-            height: 556px;
+            align-items: center;
+            height: 428px;
             width: 1107px;
             margin: 0 auto;
+            padding: 64px 0;
             .LeftContent {
                 height: 288px;
                 .LeftContentText {
@@ -40,16 +42,25 @@
                     }
                 }
             }
-        }
-        .SummaryContent {
-            height: 256px;
-            .SummaryContentList {
-                width: 1112px;
-                margin: 0 auto;
-                li > div {
-                    padding-bottom: 16px;
+            .RightContent {
+                display: grid;
+                justify-items: end;
+                img {
+                    width: 538px;
+                    height: 428px;
                 }
             }
+        }
+        .SummaryContent {
+            display: flex;
+            width: auto;
+        }
+        
+        .SummaryContentList {
+            display: flex;
+            width: 1112px;
+            margin: 0 auto;
+            gap: 46px;
         }
         .LeftContent,
         .RightContent {
@@ -71,11 +82,12 @@
         .TopSection {
             display: grid;
             grid-template-columns: auto auto;
-            height: 556px;
+            align-items: center;
+            height: 428px;
             width: 1140px;
+            padding: 64px 0;
             margin: 0 auto;
             .LeftContent {
-                height: 288px;
                 .LeftContentText {
                     width: 457px;
                     h1 {
@@ -103,16 +115,25 @@
                     }
                 }
             }
-        }
-        .SummaryContent {
-            height: 256px;
-            .SummaryContentList {
-                width: 1140px;
-                margin: 0 auto;
-                li > div {
-                    padding-bottom: 16px;
+            .RightContent {
+                display: grid;
+                justify-items: end;
+                img {
+                    width: 538px;
+                    height: 428px;
                 }
             }
+        }
+        .SummaryContent {
+            display: flex;
+            width: auto;
+        }
+        
+        .SummaryContentList {
+            display: flex;
+            width: 1112px;
+            margin: 0 auto;
+            gap: 46px;
         }
         .LeftContent,
         .RightContent {
