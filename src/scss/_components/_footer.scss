@@ -1,0 +1,7 @@
+@use '../_partials/variables' as *;
+
+.Footer {
+    display: flex;
+    background-color: $Black;
+    color: $White;
+}
