@@ -1,16 +1,16 @@
 .Header {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    align-items: center;
+    display: flex;
     justify-content: space-between;
-    padding: 0 32px;
-    height: 96px;
-    nav > .HeaderNavLinks {
-        display: grid;
-        grid-template-columns: auto auto auto auto auto;
-        list-style-type: none;
-        gap: 24px;
-        font-weight: 500;
-        font-size: 16px;
+    align-items: center;
+    padding: 34px 32px;
+    nav {
+        display: flex;
+        .HeaderNavLinks {
+            display: flex;
+            list-style-type: none;
+            li {
+                padding-inline: 12px;
+            }
+        }
     }
 }

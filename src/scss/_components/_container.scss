@@ -3,6 +3,12 @@
 .MainContainer {
     display: flex;
     flex-direction: column;
+    .HeroSection,
+    .SecondSection,
+    .TestimonialsSection,
+    .CTASection {
+        display: inherit;
+    }
 }
 
 .SummaryContent {

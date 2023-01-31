@@ -1,7 +1,4 @@
 import CTAButtons from "./CTAButtons";
-import heroImage from "../assets/images/hero-img.jpg";
-import secondSectionImage from "../assets/images/section2-img.jpg";
-import CTAImage from "../assets/images/cta-img.jpg";
 
 const Container = () => {
     return (
@@ -19,7 +16,7 @@ const Container = () => {
                         </div>
                     </article>
                     <article className="RightContent">
-                        <img className="HeroImage" src={ heroImage }></img>
+                        <img className="HeroImage"></img>
                     </article>
                 </div>
                 <article className="SummaryContent">
@@ -50,7 +47,7 @@ const Container = () => {
             </section>
             <section className="SecondSection">
                 <article className="LeftContent">
-                    <img className="SecondSectionImage" src={ secondSectionImage }></img>
+                    <img className="SecondSectionImage"></img>
                 </article>
                 <article className="RightContent">
                     <h2>
@@ -69,8 +66,7 @@ const Container = () => {
             </section>
             <section className="TestimonialsSection"></section>
             <section className="CTASection">
-                <img className="CTAImage" src={ CTAImage }></img>
-                <div className="CTAOverlay"></div>
+                <img className="CTASectionImg"></img>
             </section>
         </main>
     )

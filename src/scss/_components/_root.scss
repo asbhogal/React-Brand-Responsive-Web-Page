@@ -10,5 +10,6 @@
 }
 
 #root {
-    display: grid;
+    display: flex;
+    flex-direction: column;
 }

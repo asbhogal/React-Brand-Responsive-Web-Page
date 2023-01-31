@@ -3,13 +3,17 @@
 /****** WIDE - 1440px+ ******/
 
 @media only screen and (1441px <= width) {
-   
+   .CTASection {
+    background-image: url(../assets/images/Wide-1440px+/CTAImg-Wide-1440px+.jpg);
+   }
 }
 
 /****** DESKTOP - 1025PX -> 1440px ******/
 
 @media only screen and (1025px <= width <= 1440px) {
-    
+    .CTASection {
+        background-image: url(../assets/images/Wide-1440px+/CTAImg-Wide-1440px+.jpg);
+    }
 }
 
 /****** TABLET (LARGE) - 745px --> 1024px ******/
@@ -25,7 +29,9 @@
 }
 
 @media only screen and (width <= 600px) {
-    
+    .HeaderNavLinks {
+        display: none !important;
+    }
 }
 
 /****** MOBILE - 0px -> 375px ******/
