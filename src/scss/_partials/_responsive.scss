@@ -34,14 +34,14 @@
     .HeroSection {
         display: flex;
         flex-direction: column;
-        padding: 24px;
         .TopSection {
             display: flex;
             flex-direction: column;
+            padding: 24px;
             .LeftContent {
-                @extend .TopSection;
+                @extend .HeroSection;
                 .LeftContentText {
-                    @extend .TopSection;
+                    @extend .HeroSection;
                     align-items: center;
                     h2 {
                         text-align: center;
@@ -54,6 +54,15 @@
         }
         .SummaryContentList {
             flex-direction: column;
+            li {
+                @extend .TopSection;
+                align-items: center;
+                text-align: center;
+                padding: 24px 0;
+                div {
+                    padding-bottom: 10px;
+                }
+            }
         }
     }
 }
