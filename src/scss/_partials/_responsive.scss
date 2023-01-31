@@ -30,7 +30,7 @@
 
 /****** MOBILE - 0px -> 375px ******/
 
-@media only screen and (width <= 375px) {
+@media only screen and (width <= 376px) {
     .HeroSection {
         display: flex;
         flex-direction: column;
@@ -49,12 +49,14 @@
                         font-weight: 900;
                         line-height: 48px;
                         letter-spacing: -1px;
+                        padding-bottom: 24px;
                     }
                     h2 {
                         text-align: center;
                         font-weight: 400;
                         font-size: 18px;
                         line-height: 28px;
+                        padding-bottom: 24px;
                     }
                     .HeroCTASection {
                         @extend .LeftContentText;
@@ -62,21 +64,70 @@
                             font-weight: 600;
                             font-size: 14px;
                             line-height: 28px;
+                            padding-top: 16px;
+                            padding-bottom: 24px;
                         }
                     }
                 }
             }
+            .RightContent {
+                display: flex;
+            }
         }
         .SummaryContentList {
             flex-direction: column;
+            padding: 0 24px;
             li {
                 @extend .TopSection;
                 align-items: center;
                 text-align: center;
                 padding: 24px 0;
                 div {
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 28px;
                     padding-bottom: 10px;
                 }
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0.1px;
+                }
+            }
+        }
+    }
+
+    .SecondSection {
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .RightContent {
+            text-align: center;
+            h2 {
+                font-weight: 900;
+                font-size: 16px;
+                line-height: 32px;
+                letter-spacing: -0.1px;
+                padding: 14px 0;
+            }
+            h3 {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                text-align: center;
+                letter-spacing: 0.1px;
+                padding-bottom: 14px;
+            }
+            ul {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+            }
+            &:first-child {
+                display: none;
             }
         }
     }

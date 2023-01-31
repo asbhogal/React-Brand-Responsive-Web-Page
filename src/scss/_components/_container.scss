@@ -30,7 +30,6 @@
 }
 
 .SecondSection {
-    display: grid;
     background-color: $Black;
     .RightContent {
         color: $White;
@@ -41,6 +40,7 @@
 .SecondSectionImage {
     height: auto;
     width: 100%;
+    border-radius: 12px;
 }
 
 
