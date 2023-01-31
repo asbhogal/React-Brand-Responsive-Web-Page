@@ -1,5 +1,21 @@
 @use '../_partials/variables' as *;
 
+.HeroSection {
+    flex-direction: column;
+}
+
+.HeroCTASection > p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.TopSection {
+    display: flex;
+}
+
 .MainContainer {
     display: flex;
     flex-direction: column;
@@ -36,6 +52,7 @@
 
 .SummaryContent {
     background-color: $AntiFlashWhite;
+    width: 100%;
     .SummaryContentList {
         display: flex;
         justify-content: center;

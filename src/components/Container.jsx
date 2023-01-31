@@ -17,9 +17,7 @@ const Container = () => {
                             </div>
                         </div>
                     </article>
-                    <article className="RightContent">
-                        <img className="HeroImage"></img>
-                    </article>
+                    <article className="RightContent"></article>
                 </div>
                 <article className="SummaryContent">
                     <ul className="SummaryContentList">
