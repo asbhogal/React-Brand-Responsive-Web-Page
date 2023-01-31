@@ -5,6 +5,8 @@ const Footer = () => {
         <footer>
             <div className="LeftFooterColumn">
                 <img className="BrandLogoWhite" src={ brandLogoWhite }></img>
+            </div>
+            <div className="MiddleFooterColumn">
                 <ul className="FooterMenu">
                     <li className="FooterMenuTitle">First column</li>
                     <li>First page</li>
@@ -12,8 +14,6 @@ const Footer = () => {
                     <li>Third</li>
                     <li>Fourth</li>
                 </ul>
-            </div>
-            <div className="MiddleFooterColumn">
                 <ul className="FooterMenu">
                     <li className="FooterMenuTitle">Second</li>
                     <li>Fifth page</li>

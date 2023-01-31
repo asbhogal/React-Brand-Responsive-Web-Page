@@ -1,21 +1,22 @@
 @use '../_partials/variables' as *;
 
 .MainContainer {
-    display: grid;
+    display: flex;
+    flex-direction: column;
 }
 
 .SummaryContent {
     background-color: $AntiFlashWhite;
     .SummaryContentList {
         display: flex;
-        padding: 64px 0px;
         justify-content: center;
         div {
             flex-direction: row;
             display: flex;
             align-items: center;
             .FeaturePoint {
-                display: grid;
+                display: flex;
+                align-items: center;
                 height: 40px;
                 width: 40px;
                 border-radius: 20px;
