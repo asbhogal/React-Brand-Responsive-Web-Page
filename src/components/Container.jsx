@@ -10,7 +10,9 @@ const Container = () => {
                             <h1>Medium length display headline</h1>
                             <h2>Separated they live in Bookmarks right at the coast of the famous Semantics, large language</h2>
                             <div className="HeroCTASection">
-                                <CTAButtons />
+                                <CTAButtons 
+                                    CTAButtonStyle="CTAButton-Dark"
+                                />
                                 <p>5,000 people like you have purchased this product!</p>
                             </div>
                         </div>
@@ -66,7 +68,13 @@ const Container = () => {
             </section>
             <section className="TestimonialsSection"></section>
             <section className="CTASection">
-                <img className="CTASectionImg"></img>
+                <div className="CTAContent">
+                    <p>Tagline</p>
+                    <h2>Long headline to turn your visitors into users</h2>
+                    <CTAButtons
+                        CTAButtonStyle="CTAButton-Light"
+                    />
+                </div>
             </section>
         </main>
     )

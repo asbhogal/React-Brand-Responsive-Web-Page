@@ -7,7 +7,30 @@
     .SecondSection,
     .TestimonialsSection,
     .CTASection {
-        display: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .CTAContent {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: $White;
+            p {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                letter-spacing: 0.1px;
+            }
+            h2 {
+                padding-top: 12px;
+                padding-bottom: 32px;
+                font-weight: 900;
+                line-height: 48px;
+                letter-spacing: -0.5px;
+                text-align: center;
+            }
+        }
     }
 }
 
@@ -56,7 +79,6 @@
 }
 
 .CTASection {
-    height: 588px;
     .CTAImage {
         height: 100%;
         object-fit: cover;

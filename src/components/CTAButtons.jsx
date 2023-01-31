@@ -1,6 +1,6 @@
-const CTAButton = () => {
+const CTAButton = (props) => {
     return (
-        <button className="CTAButton">Action</button>
+        <button className={ props.CTAButtonStyle }>Action</button>
     )
 };
 

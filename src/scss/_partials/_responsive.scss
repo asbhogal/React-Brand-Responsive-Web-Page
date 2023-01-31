@@ -4,7 +4,14 @@
 
 @media only screen and (1441px <= width) {
    .CTASection {
-    background-image: url(../assets/images/Wide-1440px+/CTAImg-Wide-1440px+.jpg);
+        height:588px;
+        background-image: url(../assets/images/Wide-1440px+/CTAImg-Wide-1440px+.jpg);
+        .CTAContent {
+            width: 600px;
+            h2 {
+                font-size: 40px;
+            }
+        }
    }
 }
 
@@ -12,21 +19,48 @@
 
 @media only screen and (1025px <= width <= 1440px) {
     .CTASection {
-        background-image: url(../assets/images/Wide-1440px+/CTAImg-Wide-1440px+.jpg);
-    }
+        height:588px;
+        background-image: url(../assets/images/Desktop-1440px/CTAImg-Desktop-1440px.jpg);
+        .CTAContent {
+            width: 600px;
+            h2 {
+                font-size: 40px;
+            }
+        }
+   }
 }
 
 /****** TABLET (LARGE) - 745px --> 1024px ******/
 
 @media only screen and (745px <= width <= 1024px) {
-   
+    .CTASection {
+        height:588px;
+        background-image: url(../assets/images/Tablet-1024px/CTAImg-Tablet-1024px.jpg);
+        .CTAContent {
+            width: 600px;
+            h2 {
+                font-size: 40px;
+            }
+        }
+   }
 }
 
 /****** TABLET (SMALL) - 376px --> 744px ******/
 
 @media only screen and (376px <= width <= 744px) {
-    
+    .CTASection {
+        height:500px;
+        background-image: url(../assets/images/Tablet-Small-744px/CTAImg-Tablet-Small-744px.jpg);
+        .CTAContent {
+            width: 744px;
+            h2 {
+                font-size: 40px;
+            }
+        }
+   }
 }
+
+/****** RESPONSIVE MENU TOGGLE - TEMP ******/
 
 @media only screen and (width <= 600px) {
     .HeaderNavLinks {
@@ -36,7 +70,7 @@
 
 /****** MOBILE - 0px -> 375px ******/
 
-@media only screen and (width <= 376px) {
+@media only screen and (width <= 375px) {
     .HeroSection {
         display: flex;
         flex-direction: column;
@@ -137,6 +171,17 @@
             }
         }
     }
+
+    .CTASection {
+        height:500px;
+        background-image: url(../assets/images/Mobile-375px/CTAImg-Mobile-375px.jpg);
+        .CTAContent {
+            width: 247px;
+            h2 {
+                font-size: 28px;
+            }
+        }
+   }
 
     .Footer {
         background-color: $Black;

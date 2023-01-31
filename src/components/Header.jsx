@@ -14,7 +14,9 @@ const Header = () => {
                     <li>Link 5</li>
                 </ul>
             </nav>
-            <CTAButton />
+            <CTAButton 
+                CTAButtonStyle="CTAButton-Dark"
+            />
         </header>
     )
 };
