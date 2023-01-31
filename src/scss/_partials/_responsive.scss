@@ -43,11 +43,26 @@
                 .LeftContentText {
                     @extend .HeroSection;
                     align-items: center;
+                    h1 {
+                        text-align: center;
+                        font-size: 40px;
+                        font-weight: 900;
+                        line-height: 48px;
+                        letter-spacing: -1px;
+                    }
                     h2 {
                         text-align: center;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 28px;
                     }
                     .HeroCTASection {
                         @extend .LeftContentText;
+                        p {
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 28px;
+                        }
                     }
                 }
             }
