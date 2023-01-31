@@ -5,12 +5,14 @@
 
 @media only screen and (1441px <= width) {
     .SummaryContent {
-        padding: 64px 165px;
         .SummaryContentList {
+            padding: 64px 165px;
             flex-direction: row;
             li {
                 width: 360px;
                 list-style-type: none;
+                align-items: flex-start;
+                text-align: left;
                 &:not(:last-child) {
                     padding-right: 46px;
                 }
@@ -63,12 +65,14 @@
 
 @media only screen and (1025px <= width <= 1440px) {
     .SummaryContent {
-        padding: 64px 150px;
         .SummaryContentList {
+            padding: 64px 150px;
             flex-direction: row;
             li {
                 width: 360px;
                 list-style-type: none;
+                align-items: flex-start;
+                text-align: left;
                 &:not(:last-child) {
                     padding-right: 30px;
                 }
@@ -123,12 +127,14 @@
 
 @media only screen and (745px <= width <= 1024px) {
     .SummaryContent {
-        padding: 40px 32px;
         .SummaryContentList {
+            padding: 40px 32px;
             flex-direction: row;
             li {
                 width: 278px;
                 list-style-type: none;
+                align-items: flex-start;
+                text-align: left;
                 &:not(:last-child) {
                     padding-right: 61px;
                 }
