@@ -8,16 +8,29 @@
     width: 100px;
     height: 48px;
     border-radius: 32px;
+    cursor: pointer;
 }
 
 .CTAButton-Dark {
     @extend .CTAButton;
     background-color: $Black;
     color: $White;
+    transition: $Transition-03;
+    &:hover {
+        background-color: $AntiFlashWhite;
+        color: $Black;
+        transition: $Transition-03;
+    }
 }
 
 .CTAButton-Light {
     @extend .CTAButton;
     background-color: $White;
     color: $Black;
+    transition: $Transition-03;
+    &:hover {
+        background-color: $Black;
+        color: $AntiFlashWhite;
+        transition: $Transition-03;
+    }
 }

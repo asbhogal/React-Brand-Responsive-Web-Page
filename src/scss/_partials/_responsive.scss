@@ -59,19 +59,29 @@
             }
         }
    }
+
+   .SecondSection {
+        height: 620px;
+        flex-direction: row;
+        padding: 64px 0;
+        .LeftContent {
+            background-image: url(../assets/images/Wide-1440px+/secondSectionImg-Wide-1440px+.jpg);
+            background-repeat: no-repeat;
+            height: 428px;
+            width: 535px;
+            border-radius: $BorderRadius;
+        }
+        .RightContent {
+            width: 453px;
+            padding-left: 133px;
+            ul {
+                list-style-type: none;
+            }
+        }
+    }   
 }
 
-.SecondSection {
-    height: 620px;
-    flex-direction: row;
-    .LeftContent {
-        background-image: url(../assets/images/Wide-1440px+/secondSectionImg-Wide-1440px+.jpg);
-        background-repeat: no-repeat;
-        height: 428px;
-        width: 535px;
-        border-radius: $BorderRadius;
-    }
-}
+
 
 /****** DESKTOP - 1025PX -> 1440px ******/
 
@@ -123,6 +133,26 @@
             border-radius: $BorderRadius;
         }
     }
+    .SecondSection {
+        height: 620px;
+        flex-direction: row;
+        padding: 64px 150px;
+        .LeftContent {
+            background-image: url(../assets/images/Desktop-1440px/secondSectionImg-Desktop-1440px.jpg);
+            background-repeat: no-repeat;
+            height: 428px;
+            width: 535px;
+            border-radius: $BorderRadius;
+        }
+        .RightContent {
+            width: 453px;
+            padding-left: 133px;
+            ul {
+                list-style-type: none;
+            }
+        }
+    } 
+
     .CTASection {
         height:588px;
         background-image: url(../assets/images/Desktop-1440px/CTAImg-Desktop-1440px.jpg);
@@ -182,7 +212,49 @@
                 font-size: 40px;
             }
         }
-   }
+    }
+    .SecondSection {
+        height: 895px;
+        flex-direction: column;
+        .LeftContent {
+            background-image: url(../assets/images/Tablet-1024px/secondSectionImg-Tablet-1024px.jpg);
+            background-repeat: no-repeat;
+            height: 550px;
+            width: 960px;
+            border-radius: $BorderRadius;
+        }
+        .RightContent {
+            display: flex;
+            flex-direction: row;
+            width: 453px;
+            h2 {
+                display: flex;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 32px;
+                letter-spacing: -0.1px;
+            }
+            .RightContentSubSection {
+                padding-left: 139px;
+                display: flex;
+                flex-direction: column;
+                h3 {
+                    padding-bottom: 16px;
+                }
+                h3, ul {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0.1px;
+                    li {
+                        &:not(:last-child) {
+                            padding-bottom: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 /****** TABLET (SMALL) - 376px --> 744px ******/

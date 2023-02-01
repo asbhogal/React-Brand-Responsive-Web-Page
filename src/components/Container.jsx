@@ -51,15 +51,17 @@ const Container = () => {
                     <h2>
                     Long headline on two lines to turn your visitors into users and achieve more
                     </h2>
-                    <h3>
-                    Separated they live in Bookmarks right at the coast of the famous Semantics, large language ocean
-                    </h3>
-                    <ul>
-                        <li>Showcase and embed your work with</li>
-                        <li>Publish across social channels in a click</li>
-                        <li>Sell your videos worldwide</li>
-                        <li>Embed your work with</li>
-                    </ul>
+                    <div className="RightContentSubSection">
+                        <h3>
+                        Separated they live in Bookmarks right at the coast of the famous Semantics, large language ocean
+                        </h3>
+                        <ul>
+                            <li>&#8226;	Showcase and embed your work with</li>
+                            <li>&#8226;	Publish across social channels in a click</li>
+                            <li>&#8226;	Sell your videos worldwide</li>
+                            <li>&#8226;	Embed your work with</li>
+                        </ul>
+                    </div>
                 </article>
             </section>
             <section className="TestimonialsSection"></section>
