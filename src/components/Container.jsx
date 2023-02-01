@@ -46,9 +46,7 @@ const Container = () => {
                 </article>
             </section>
             <section className="SecondSection">
-                <article className="LeftContent">
-                    <img className="SecondSectionImage"></img>
-                </article>
+                <article className="LeftContent"></article>
                 <article className="RightContent">
                     <h2>
                     Long headline on two lines to turn your visitors into users and achieve more

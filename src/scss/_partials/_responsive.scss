@@ -61,6 +61,18 @@
    }
 }
 
+.SecondSection {
+    height: 620px;
+    flex-direction: row;
+    .LeftContent {
+        background-image: url(../assets/images/Wide-1440px+/secondSectionImg-Wide-1440px+.jpg);
+        background-repeat: no-repeat;
+        height: 428px;
+        width: 535px;
+        border-radius: $BorderRadius;
+    }
+}
+
 /****** DESKTOP - 1025PX -> 1440px ******/
 
 @media only screen and (1025px <= width <= 1440px) {
