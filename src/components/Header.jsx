@@ -5,14 +5,19 @@ const Header = () => {
     return (
         <header className="Header">
             <img src={ mainLogoBlack }></img>
-            <nav>
+            <nav className="Navbar">
                 <ul className="HeaderNavLinks">
-                    <li>Link 1</li>
-                    <li>Link 2</li>
-                    <li>Link 3</li>
-                    <li>Link 4</li>
-                    <li>Link 5</li>
+                    <li className="NavItem"><a href="#">Link 1</a></li>
+                    <li className="NavItem"><a href="#">Link 2</a></li>
+                    <li className="NavItem"><a href="#">Link 3</a></li>
+                    <li className="NavItem"><a href="#">Link 4</a></li>
+                    <li className="NavItem"><a href="#">Link 5</a></li>
                 </ul>
+                <button className="NavbarToggle">
+                    <span className="ToggleLine"></span>
+                    <span className="ToggleLine"></span>
+                    <span className="ToggleLine"></span>
+                </button>
             </nav>
             <CTAButton 
                 CTAButtonStyle="CTAButton-Dark"
