@@ -1,19 +1,34 @@
 import CTAButton from "./CTAButtons";
 import mainLogoBlack from "../assets/logos/brand-logo-black.svg";
+import { useState } from "react";
 
 const Header = () => {
+
+    const   [active, setActive] = useState("HeaderNavLinks"),
+            [toggle, setToggle] = useState("NavbarToggle");
+
+    const navToggle = () => {
+        active === "HeaderNavLinks" 
+        ? setActive("HeaderNavLinks NavActive") 
+        : setActive("HeaderNavLinks");
+
+        toggle === "NavbarToggle"
+        ? setToggle("NavbarToggle ToggleActive")
+        : setToggle("NavbarToggle");
+    };
+
     return (
         <header className="Header">
             <img src={ mainLogoBlack }></img>
             <nav className="Navbar">
-                <ul className="HeaderNavLinks">
+                <ul className={ active }>
                     <li className="NavItem"><a href="#">Link 1</a></li>
                     <li className="NavItem"><a href="#">Link 2</a></li>
                     <li className="NavItem"><a href="#">Link 3</a></li>
                     <li className="NavItem"><a href="#">Link 4</a></li>
                     <li className="NavItem"><a href="#">Link 5</a></li>
                 </ul>
-                <button className="NavbarToggle">
+                <button className={ toggle } onClick={ navToggle }>
                     <span className="ToggleLine"></span>
                     <span className="ToggleLine"></span>
                     <span className="ToggleLine"></span>

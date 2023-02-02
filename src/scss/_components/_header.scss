@@ -23,21 +23,65 @@
 }
 
 .NavbarToggle {
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     outline: none;
     border: none;
     background-color: black;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 3px;
     cursor: pointer;
     .ToggleLine {
-        width: 15px;
+        transition: $Transition-05;
+        width: 20px;
         height: 1px;
         background-color: white;
     }
+}
+
+.ToggleActive .ToggleLine {
+    &:first-child {
+        transition: $Transition-05;
+        transform: rotate(45deg) translate(3.5px, 3px);
+    }
+    &:nth-child(2) {
+        transition: $Transition-05;
+        opacity: 0;
+    }
+    &:last-child {
+        transition: $Transition-05;
+        transform: rotate(-45deg) translate(2px, -2px);;
+    }
+}
+
+@media only screen and (width <= 600px) {
+    .NavbarToggle {
+        display: flex;
+        z-index: 9;
+        cursor: pointer;
+    }
+    .HeaderNavLinks {
+        position: absolute !important;
+        left: 0;
+        background-color: $AntiFlashWhite;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        transform: translateY(-100%);
+        transition: $Transition-05;
+    }
+}
+
+.NavActive {
+    transform: translateX(0%);
 }

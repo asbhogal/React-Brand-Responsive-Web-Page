@@ -655,9 +655,6 @@
 }
 
 @media only screen and (width <= 600px) {
-    .HeaderNavLinks {
-        display: none !important;
-    }
     .Footer {
         background-color: $Black;
         color: $White;
