@@ -30,8 +30,12 @@
         }
     }
     .TopSection {
+        gap: 115px;
+        width: 1110px;
         align-items: center;
         .LeftContent > .LeftContentText {
+            display: flex;
+            flex-direction: column;
             h1 {
                 font-weight: 900;
                 font-size: 56px;
@@ -39,14 +43,20 @@
                 letter-spacing: -1px;
             }
             h2 {
+                padding-top: 24px;
+                padding-bottom: 40px;
                 @include HeroHeading2Typography;
             }
         }
         .RightContent {
-            background-image: url(../assets/images/Wide-1440px+/heroImg-Wide-1440px+.jpg);
             height: 428px;
             width: 100%;
-            border-radius: $BorderRadius;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: $BorderRadius;
+            }
         }
     }
    .CTASection {
@@ -65,11 +75,29 @@
         flex-direction: row;
         padding: 64px 0;
         .LeftContent {
-            background-image: url(../assets/images/Wide-1440px+/secondSectionImg-Wide-1440px+.jpg);
-            background-repeat: no-repeat;
-            height: 428px;
-            width: 535px;
+            height: 550px;
             border-radius: $BorderRadius;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: $BorderRadius;
+            }
+            .LeftContentText {
+                display: flex;
+                flex-direction: column;
+                h1 {
+                    font-weight: 900;
+                    font-size: 56px;
+                    line-height: 60px;
+                    letter-spacing: -1px;
+                }
+                h2 {
+                    padding-top: 24px;
+                    padding-bottom: 40px;
+                    @include HeroHeading2Typography;
+                }
+            }
         }
         .RightContent {
             width: 453px;
@@ -127,8 +155,6 @@
     }   
 }
 
-
-
 /****** DESKTOP - 1025PX -> 1440px ******/
 
 @media only screen and (1025px <= width <= 1440px) {
@@ -159,8 +185,12 @@
         }
     }
     .TopSection {
+        padding: 0px 165px;
+        gap: 115px;
         align-items: center;
         .LeftContent > .LeftContentText {
+            display: flex;
+            flex-direction: column;
             h1 {
                 font-weight: 900;
                 font-size: 56px;
@@ -168,15 +198,20 @@
                 letter-spacing: -1px;
             }
             h2 {
+                padding-top: 24px;
+                padding-bottom: 40px;
                 @include HeroHeading2Typography;
-                text-align: center;
             }
         }
         .RightContent {
-            background-image: url(../assets/images/Desktop-1440px/heroImg-Desktop-1440px.jpg);
             height: 428px;
             width: 100%;
-            border-radius: $BorderRadius;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: $BorderRadius;
+            }
         }
     }
     .SecondSection {
@@ -184,11 +219,15 @@
         flex-direction: row;
         padding: 64px 150px;
         .LeftContent {
-            background-image: url(../assets/images/Desktop-1440px/secondSectionImg-Desktop-1440px.jpg);
-            background-repeat: no-repeat;
             height: 428px;
-            width: 535px;
+            width: 100%;
             border-radius: $BorderRadius;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: $BorderRadius;
+            }
         }
         .RightContent {
             width: 453px;
@@ -260,6 +299,30 @@
 /****** TABLET (LARGE) - 745px --> 1024px ******/
 
 @media only screen and (745px <= width <= 1024px) {
+    .TopSection {
+        flex-direction: column;
+        padding: 32px;
+        .LeftContent > .LeftContentText {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            .HeroCTASection {
+                gap: 20px;
+            }
+        }
+        .RightContent {
+            width: 100%;
+            height: 450px;
+            padding-top: 68px;
+            img {
+                border-radius: $BorderRadius;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
     .SummaryContent {
         .SummaryContentList {
             padding: 40px 32px;
@@ -291,34 +354,27 @@
             text-align: center;
         }
     }
-    .HeroCTASection {
-        display: flex;
-        align-items: center;
-    }
-    .CTASection {
-        height:588px;
-        background-image: url(../assets/images/Tablet-1024px/CTAImg-Tablet-1024px.jpg);
-        .CTAContent {
-            width: 600px;
-            h2 {
-                font-size: 40px;
-            }
-        }
-    }
+
     .SecondSection {
         height: 895px;
         flex-direction: column;
+        height:100%;
+        padding: 32px;
+        gap: 64px;
         .LeftContent {
-            background-image: url(../assets/images/Tablet-1024px/secondSectionImg-Tablet-1024px.jpg);
-            background-repeat: no-repeat;
             height: 550px;
-            width: 960px;
             border-radius: $BorderRadius;
+            width: 100%;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: $BorderRadius;
+            }
         }
         .RightContent {
             display: flex;
             flex-direction: row;
-            width: 453px;
             h2 {
                 display: flex;
                 font-weight: 900;
@@ -344,6 +400,21 @@
                         }
                     }
                 }
+            }
+        }
+    }
+
+    .HeroCTASection {
+        display: flex;
+        align-items: center;
+    }
+    .CTASection {
+        height:588px;
+        background-image: url(../assets/images/Tablet-1024px/CTAImg-Tablet-1024px.jpg);
+        .CTAContent {
+            width: 600px;
+            h2 {
+                font-size: 40px;
             }
         }
     }
@@ -398,17 +469,70 @@
 /****** TABLET (SMALL) - 376px --> 744px ******/
 
 @media only screen and (376px <= width <= 744px) {
-    .LeftContent > .LeftContentText {
-        h1 {
-            font-weight: 900;
-            font-size: 56px;
-            line-height: 60px;
-            letter-spacing: -1px;
-            text-align: center;
+    .TopSection {
+        flex-direction: column;
+        padding: 32px;
+        .LeftContent > .LeftContentText {
+            h1 {
+                font-weight: 900;
+                font-size: 56px;
+                line-height: 60px;
+                letter-spacing: -1px;
+                text-align: center;
+            }
+            h2 {
+                @include HeroHeading2Typography;
+                text-align: center;
+            }
         }
-        h2 {
-            @include HeroHeading2Typography;
+        .LeftContent > .LeftContentText {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            .HeroCTASection {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 16px;
+            }
+        }
+        .RightContent {
+            width: 100%;
+            height: 499px;
+            padding-top: 68px;
+            img {
+                border-radius: $BorderRadius;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    .SecondSection {
+        flex-direction: column;
+        padding: 24px;
+        .LeftContent {
+            width: 100%;
+            height: 550px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: $BorderRadius;
+            }
+        }
+        .RightContent {
+            display: flex;
+            flex-direction: column;
             text-align: center;
+            gap: 29px;
+            padding-top: 29px;
+            .RightContentSubSection {
+                display: flex;
+                flex-direction: column;
+                gap: 29px;
+            }
         }
     }
     .CTASection {

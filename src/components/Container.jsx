@@ -1,4 +1,6 @@
 import CTAButtons from "./CTAButtons";
+import heroImg from "../assets/images/Wide-1440px+/heroImg-Wide-1440px+.jpg";
+import secondSectionImg from "../assets/images/Desktop-1440px/secondSectionImg-Desktop-1440px.jpg";
 
 const Container = () => {
     return (
@@ -17,7 +19,9 @@ const Container = () => {
                             </div>
                         </div>
                     </article>
-                    <article className="RightContent"></article>
+                    <article className="RightContent">
+                        <img className="HeroImg" src={ heroImg }></img>
+                    </article>
                 </div>
                 <article className="SummaryContent">
                     <ul className="SummaryContentList">
@@ -46,7 +50,9 @@ const Container = () => {
                 </article>
             </section>
             <section className="SecondSection">
-                <article className="LeftContent"></article>
+                <article className="LeftContent">
+                    <img className="SecondSectionImg" src={ secondSectionImg }></img>
+                </article>
                 <article className="RightContent">
                     <h2>
                     Long headline on two lines to turn your visitors into users and achieve more
