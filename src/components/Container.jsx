@@ -1,6 +1,7 @@
 import CTAButtons from "./CTAButtons";
 import heroImg from "../assets/images/Wide-1440px+/heroImg-Wide-1440px+.jpg";
 import secondSectionImg from "../assets/images/Desktop-1440px/secondSectionImg-Desktop-1440px.jpg";
+import ctaImg from "../assets/images/Wide-1440px+/CTAImg-Wide-1440px+.jpg";
 
 const Container = () => {
     return (
@@ -72,6 +73,7 @@ const Container = () => {
             </section>
             <section className="TestimonialsSection"></section>
             <section className="CTASection">
+                <img className="CTAImg" src={ ctaImg }></img>
                 <div className="CTAContent">
                     <p>Tagline</p>
                     <h2>Long headline to turn your visitors into users</h2>
