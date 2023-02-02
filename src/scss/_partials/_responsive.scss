@@ -347,6 +347,52 @@
             }
         }
     }
+    .Footer {
+        display: flex;
+        justify-content: space-around;
+        padding: 45px 32px;
+        /* .LeftFooterColumn {
+            height: min-content;
+            position: absolute;
+            left: 105px;
+        } */
+        .MiddleFooterColumn {
+            display: flex;
+            gap: 45px;
+        }
+        .RightFooterColumn {
+            display: flex;
+            flex-direction: column;
+            width: 240px;
+            justify-content: flex-end;
+            .SignUpInput {
+                background-color: rgba(255, 255, 255, 0.15);
+                border-radius: 40px;
+                margin-top: 24px;
+                margin-bottom: 20px;
+                padding: 12px 24px;
+                outline: none;
+                border: none;
+                background: $RaisinBlack url(../assets/icons/SendEmailIcon-Modified.svg) right no-repeat;
+            }
+            p {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+                color: #FFFFFF;
+            }
+            p:last-of-type {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                color: #FFFFFF;
+                mix-blend-mode: normal;
+                opacity: 0.4;
+            }
+        }
+    }
 }
 
 /****** TABLET (SMALL) - 376px --> 744px ******/
@@ -374,7 +420,53 @@
                 font-size: 40px;
             }
         }
-   }
+    }
+    .Footer {
+        display: flex;
+        justify-content: space-around;
+        padding: 45px 32px;
+        /* .LeftFooterColumn {
+            height: min-content;
+            position: absolute;
+            left: 105px;
+        } */
+        .MiddleFooterColumn {
+            display: flex;
+            gap: 45px;
+        }
+        .RightFooterColumn {
+            display: flex;
+            flex-direction: column;
+            width: 240px;
+            justify-content: flex-end;
+            .SignUpInput {
+                background-color: rgba(255, 255, 255, 0.15);
+                border-radius: 40px;
+                margin-top: 24px;
+                margin-bottom: 20px;
+                padding: 12px 24px;
+                outline: none;
+                border: none;
+                background: $RaisinBlack url(../assets/icons/SendEmailIcon-Modified.svg) right no-repeat;
+            }
+            p {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+                color: #FFFFFF;
+            }
+            p:last-of-type {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                color: #FFFFFF;
+                mix-blend-mode: normal;
+                opacity: 0.4;
+            }
+        }
+    }
 }
 
 .SummaryContentList {
@@ -430,6 +522,72 @@
 @media only screen and (width <= 600px) {
     .HeaderNavLinks {
         display: none !important;
+    }
+    .Footer {
+        background-color: $Black;
+        color: $White;
+        display: flex;
+        flex-direction: column;
+        padding: 50px 30px;
+        align-items: center;
+        .LeftFooterColumn {
+            padding-bottom: 20px;
+        }
+        .MiddleFooterColumn {
+            display: flex;
+            justify-content: space-between;
+            width: 315px;
+            .FooterMenu {
+                display: flex;
+                flex-direction: column;
+                flex: 1 1 0px;
+                align-items: center;
+                list-style-type: none;
+                text-align: center;
+                .FooterMenuTitle {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    letter-spacing: 0.1px;
+                    padding-bottom: 16px;
+                    width: min-content;
+                }
+            }
+        }
+        .RightFooterColumn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 315px;
+            .SignUpInput {
+                background-color: rgba(255, 255, 255, 0.15);
+                border-radius: 40px;
+                margin-top: 24px;
+                margin-bottom: 20px;
+                padding: 12px 24px;
+                outline: none;
+                border: none;
+                background: $RaisinBlack url(../assets/icons/SendEmailIcon-Modified.svg) right no-repeat;
+            }
+            p {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+                color: #FFFFFF;
+            }
+            p:last-of-type {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                color: #FFFFFF;
+                mix-blend-mode: normal;
+                opacity: 0.4;
+            }
+        }
     }
 }
 
@@ -549,73 +707,6 @@
             }
         }
    }
-
-    .Footer {
-        background-color: $Black;
-        color: $White;
-        display: flex;
-        flex-direction: column;
-        padding: 50px 30px;
-        align-items: center;
-        .LeftFooterColumn {
-            padding-bottom: 20px;
-        }
-        .MiddleFooterColumn {
-            display: flex;
-            justify-content: space-between;
-            width: 315px;
-            .FooterMenu {
-                display: flex;
-                flex-direction: column;
-                flex: 1 1 0px;
-                align-items: center;
-                list-style-type: none;
-                text-align: center;
-                .FooterMenuTitle {
-                    font-weight: 700;
-                    font-size: 16px;
-                    line-height: 24px;
-                    text-align: center;
-                    letter-spacing: 0.1px;
-                    padding-bottom: 16px;
-                    width: min-content;
-                }
-            }
-        }
-        .RightFooterColumn {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            width: 315px;
-            .SignUpInput {
-                background-color: rgba(255, 255, 255, 0.15);
-                border-radius: 40px;
-                margin-top: 24px;
-                margin-bottom: 20px;
-                padding: 12px 24px;
-                outline: none;
-                border: none;
-                background: $RaisinBlack url(../assets/icons/SendEmailIcon-Modified.svg) right no-repeat;
-            }
-            p {
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 24px;
-                letter-spacing: 0.1px;
-                color: #FFFFFF;
-            }
-            p:last-of-type {
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 20px;
-                text-align: center;
-                color: #FFFFFF;
-                mix-blend-mode: normal;
-                opacity: 0.4;
-            }
-        }
-    }
 }
 
 
