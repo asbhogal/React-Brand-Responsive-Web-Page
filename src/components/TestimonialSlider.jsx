@@ -29,15 +29,12 @@ const TestimonialsSlider = () => {
             { data.map(user => (
                 <swiper-slide class="TestimonialCard" key={ user.id }>
                     <>
-                        <p>{ user.description }</p>
-                        <br></br>
+                        <p class="TestimonialQuote">{ user.description }</p>
                         <img class="TestimonialImage "src={ require(`/src/assets/images/Testimonial-Image-${ user.img }`) }></img>
-                        <br></br>
-                        <p>{ user.name }</p>
-                        <br></br>
+                        <p class="TestimonialName">{ user.name }</p>
                         <div class="TestimonialBottomSection">
-                            <p>{ user.title }</p>
-                            <div>
+                            <p class="TestimonialTitle">{ user.title }</p>
+                            <div class="SocialIcons">
                                 <img src={ require(`/src/assets/logos/${ user.socialIcons.facebookIcon }`) }></img>
                                 <img src={ require(`/src/assets/logos/${ user.socialIcons.twitterIcon }`) }></img>
                             </div>

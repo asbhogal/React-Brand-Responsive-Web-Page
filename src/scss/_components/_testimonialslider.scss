@@ -5,12 +5,37 @@
     flex-direction: column;
     background-color: $AntiFlashWhite;
     padding: 24px;
+    border-radius: $BorderRadius;
+    .TestimonialQuote {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
     .TestimonialImage {
         height: 64px;
         width: 64px;
+        padding-top: 56px;
+    }
+    .TestimonialName {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        padding-top: 16px;
+    }
+    .TestimonialTitle {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 4px;
     }
     .TestimonialBottomSection {
         display: flex;
         justify-content: space-between;
+        .SocialIcons {
+            display: flex;
+            gap: 16px;
+            height: 16px;
+        }
     }
 }
