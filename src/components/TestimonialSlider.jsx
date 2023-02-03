@@ -3,10 +3,31 @@ import Swiper from "swiper";
 import { register } from "swiper/element/bundle";
 import data from "../js/data";
 
-console.log(data);
+register();
 
 const TestimonialsSlider = () => {
+
     const swiperElRef = useRef(null);
+
+    /* const swiperParams = {
+        slidesPerView: 1,
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+        on: {
+          init() {
+          },
+        },
+      };
+
+      Object.assign(swiperEl, swiperParams);
+
+  swiperEl.initialize(); */
 
     useEffect(() => {
         swiperElRef.current.addEventListener('progress', (e) => {
@@ -25,6 +46,7 @@ const TestimonialsSlider = () => {
             slides-per-view="3"
             spaceBetween="300"
             slidesPerView="3"
+            width="36"
         >
             { data.map(user => (
                 <swiper-slide class="TestimonialCard" key={ user.id }>
