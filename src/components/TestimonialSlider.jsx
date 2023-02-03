@@ -28,9 +28,8 @@ const TestimonialsSlider = () => {
             loop="true"
             slidesPerView="3"
         >
-            <swiper-pagination></swiper-pagination>
             { data.map(user => (
-                <swiper-slide key={ user.id }>
+                <swiper-slide class="TestimonialCard" key={ user.id }>
                     <>
                         { user.description }
                         <br></br>
@@ -45,6 +44,7 @@ const TestimonialsSlider = () => {
                     </>
                 </swiper-slide>
             )) }
+            <swiper-pagination></swiper-pagination>
         </swiper-container>
     )
 };

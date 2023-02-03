@@ -1,3 +1,5 @@
+@use "../_partials/variables" as *;
+
 .TestimonialCard {
-    background-color: red;
+    background-color: $AntiFlashWhite;
 }
