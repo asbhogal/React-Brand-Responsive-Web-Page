@@ -3,6 +3,8 @@ import heroImg from "../assets/images/heroImg.jpg";
 import secondSectionImg from "../assets/images/secondSectionImg.jpg";
 import ctaImg from "../assets/images/CTAImg.jpg";
 
+import TestimonialSlider from "./TestimonialSlider";
+
 const Container = () => {
     return (
         <main className="MainContainer">
@@ -71,7 +73,9 @@ const Container = () => {
                     </div>
                 </article>
             </section>
-            <section className="TestimonialsSection"></section>
+            <section className="TestimonialsSection">
+                <TestimonialSlider />
+            </section>
             <section className="CTASection">
                 <img className="CTAImg" src={ ctaImg } alt="An image of a large empty bookcase in the middle of a room with white granite walls and open windows"></img>
                 <div className="CTAContent">
