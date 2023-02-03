@@ -1,7 +1,7 @@
 import CTAButtons from "./CTAButtons";
-import heroImg from "../assets/images/Wide-1440px+/heroImg-Wide-1440px+.jpg";
-import secondSectionImg from "../assets/images/Desktop-1440px/secondSectionImg-Desktop-1440px.jpg";
-import ctaImg from "../assets/images/Wide-1440px+/CTAImg-Wide-1440px+.jpg";
+import heroImg from "../assets/images/heroImg.jpg";
+import secondSectionImg from "../assets/images/secondSectionImg.jpg";
+import ctaImg from "../assets/images/CTAImg.jpg";
 
 const Container = () => {
     return (
