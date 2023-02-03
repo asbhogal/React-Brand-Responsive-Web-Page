@@ -19,7 +19,7 @@ const Header = () => {
 
     return (
         <header className="Header">
-            <img src={ mainLogoBlack }></img>
+            <img src={ mainLogoBlack } alt="The Brand logo, all in uppercase and in black bold lettering"></img>
             <nav className="Navbar">
                 <ul className={ active }>
                     <li className="NavItem"><a href="#">Link 1</a></li>

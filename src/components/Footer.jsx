@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className="Footer">
             <div className="LeftFooterColumn">
-                <img className="BrandLogoWhite" src={ brandLogoWhite }></img>
+                <img className="BrandLogoWhite" src={ brandLogoWhite } alt="The Brand logo, all in uppercase and in white bold lettering"></img>
             </div>
             <div className="MiddleFooterColumn">
                 <ul className="FooterMenu">

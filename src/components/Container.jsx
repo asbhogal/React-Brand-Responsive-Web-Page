@@ -21,7 +21,7 @@ const Container = () => {
                         </div>
                     </article>
                     <article className="RightContent">
-                        <img className="HeroImg" src={ heroImg }></img>
+                        <img className="HeroImg" src={ heroImg } alt="An image of a white couch, nested coffee tables and floor cushion against a white backdrop"></img>
                     </article>
                 </div>
                 <article className="SummaryContent">
@@ -52,7 +52,7 @@ const Container = () => {
             </section>
             <section className="SecondSection">
                 <article className="LeftContent">
-                    <img className="SecondSectionImg" src={ secondSectionImg }></img>
+                    <img className="SecondSectionImg" src={ secondSectionImg } alt="An image of two floating shelves with various vases, mugs, books and a picture frame against a light creme backdrop"></img>
                 </article>
                 <article className="RightContent">
                     <h2>
@@ -73,7 +73,7 @@ const Container = () => {
             </section>
             <section className="TestimonialsSection"></section>
             <section className="CTASection">
-                <img className="CTAImg" src={ ctaImg }></img>
+                <img className="CTAImg" src={ ctaImg } alt="An image of a large empty bookcase in the middle of a room with white granite walls and open windows"></img>
                 <div className="CTAContent">
                     <p>Tagline</p>
                     <h2>Long headline to turn your visitors into users</h2>

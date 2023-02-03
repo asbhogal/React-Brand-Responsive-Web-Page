@@ -5,6 +5,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 34px 32px;
+    img {
+        height: 28px;
+        width: 101px;
+    }
     nav {
         display: flex;
         .HeaderNavLinks {

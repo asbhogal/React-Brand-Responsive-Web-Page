@@ -9,6 +9,7 @@ const   path = require("path"),
             new HTMLWebpackPlugin({
                 title: "Brand - Responsive Web Page",
                 author: "Aman Singh Bhogal",
+                description: "A responsive web page for Brand",
                 template: "./src/index.html"
             }),
         ];
