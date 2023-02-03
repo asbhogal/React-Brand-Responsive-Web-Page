@@ -2,9 +2,9 @@ export default [
     {
         id: 1,
         description: "A testimonial describing what the person thinks about this service, product or startup in general.",
-        img: "1",
+        img: "1.jpg",
         name: "Name Surname",
-        title: "position",
+        title: "Description",
         socialIcons: {
             twitterIcon: "TwitterIcon.svg",
             facebookIcon: "FacebookIcon.svg"
@@ -13,9 +13,9 @@ export default [
     {
         id: 2,
         description: "A testimonial describing what the person thinks about this service, product or startup in general.",
-        img: "2",
+        img: "2.jpg",
         name: "Name Surname",
-        title: "position",
+        title: "Description",
         socialIcons: {
             twitterIcon: "TwitterIcon.svg",
             facebookIcon: "FacebookIcon.svg"
@@ -24,9 +24,9 @@ export default [
     {
         id: 3,
         description: "A testimonial describing what the person thinks about this service, product or startup in general.",
-        img: "3",
+        img: "3.jpg",
         name: "Name Surname",
-        title: "position",
+        title: "Description",
         socialIcons: {
             twitterIcon: "TwitterIcon.svg",
             facebookIcon: "FacebookIcon.svg"

@@ -1,4 +1,5 @@
 import { useRef, useEffect } from "react";
+import Swiper from "swiper";
 import { register } from "swiper/element/bundle";
 import data from "../js/data";
 
@@ -22,15 +23,28 @@ const TestimonialsSlider = () => {
         <swiper-container
             ref={ swiperElRef }
             slides-per-view="3"
-            navigation="true"
+            spaceBetween="300"
             pagination="true"
+            loop="true"
+            slidesPerView="3"
         >
-            <swiper-slide>
-                <h1>Test</h1>
-                <p>“A testimonial describing what the person thinks about this service, product or startup in general.”</p>
-            </swiper-slide>
-            <swiper-slide>Slide 1</swiper-slide>
-            <swiper-slide>Slide 1</swiper-slide>
+            <swiper-pagination></swiper-pagination>
+            { data.map(user => (
+                <swiper-slide key={ user.id }>
+                    <>
+                        { user.description }
+                        <br></br>
+                        <img src={ require(`/src/assets/images/Testimonial-Image-${ user.img }`) }></img>
+                        <br></br>
+                        { user.name }
+                        <br></br>
+                        { user.title }
+                        <br></br>
+                        <img src={ require(`/src/assets/logos/${ user.socialIcons.facebookIcon }`) }></img>
+                        <img src={ require(`/src/assets/logos/${ user.socialIcons.twitterIcon }`) }></img>
+                    </>
+                </swiper-slide>
+            )) }
         </swiper-container>
     )
 };
