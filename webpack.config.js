@@ -10,6 +10,7 @@ const   path = require("path"),
                 title: "Brand - Responsive Web Page",
                 author: "Aman Singh Bhogal",
                 description: "A responsive web page for Brand",
+                favicon: "./src/assets/logos/brand-icon-black.svg",
                 template: "./src/index.html"
             }),
         ];
