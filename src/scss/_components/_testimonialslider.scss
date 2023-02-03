@@ -1,5 +1,16 @@
 @use "../_partials/variables" as *;
 
 .TestimonialCard {
+    display: flex;
+    flex-direction: column;
     background-color: $AntiFlashWhite;
+    padding: 24px;
+    .TestimonialImage {
+        height: 64px;
+        width: 64px;
+    }
+    .TestimonialBottomSection {
+        display: flex;
+        justify-content: space-between;
+    }
 }

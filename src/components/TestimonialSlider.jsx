@@ -24,23 +24,24 @@ const TestimonialsSlider = () => {
             ref={ swiperElRef }
             slides-per-view="3"
             spaceBetween="300"
-            pagination="true"
-            loop="true"
             slidesPerView="3"
         >
             { data.map(user => (
                 <swiper-slide class="TestimonialCard" key={ user.id }>
                     <>
-                        { user.description }
+                        <p>{ user.description }</p>
                         <br></br>
-                        <img src={ require(`/src/assets/images/Testimonial-Image-${ user.img }`) }></img>
+                        <img class="TestimonialImage "src={ require(`/src/assets/images/Testimonial-Image-${ user.img }`) }></img>
                         <br></br>
-                        { user.name }
+                        <p>{ user.name }</p>
                         <br></br>
-                        { user.title }
-                        <br></br>
-                        <img src={ require(`/src/assets/logos/${ user.socialIcons.facebookIcon }`) }></img>
-                        <img src={ require(`/src/assets/logos/${ user.socialIcons.twitterIcon }`) }></img>
+                        <div class="TestimonialBottomSection">
+                            <p>{ user.title }</p>
+                            <div>
+                                <img src={ require(`/src/assets/logos/${ user.socialIcons.facebookIcon }`) }></img>
+                                <img src={ require(`/src/assets/logos/${ user.socialIcons.twitterIcon }`) }></img>
+                            </div>
+                        </div>
                     </>
                 </swiper-slide>
             )) }
