@@ -8,12 +8,12 @@
 
 </div>
 
+A single web page for the fictional company Brand, which offers interior designing options.
+
 This project is in two parts:
 
  1. A mockup of 5 responsive screens created in Figma from assets provided by Flux Academy
  2. A responsive webpage rendered from these mockups using React, SASS and Webpack and deployed via Vercel
-
- This repo is currently under development.
 
  <strong>:heavy_check_mark: Features:</strong><br>
   - Designed from Figma mockup
