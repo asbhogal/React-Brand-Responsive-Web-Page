@@ -157,6 +157,7 @@
                 outline: none;
                 border: none;
                 background: $RaisinBlack url(../assets/icons/SendEmailIcon-Modified.svg) right no-repeat;
+                background-origin: content-box;
             }
             p {
                 font-weight: 700;
@@ -169,7 +170,6 @@
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 20px;
-                text-align: center;
                 color: $White;
                 mix-blend-mode: normal;
                 opacity: 0.4;
@@ -333,6 +333,7 @@
             outline: none;
             border: none;
             background: $RaisinBlack url(../assets/icons/SendEmailIcon-Modified.svg) right no-repeat;
+            background-origin: content-box;
         }
         p {
             font-weight: 700;
@@ -345,7 +346,6 @@
             font-weight: 400;
             font-size: 14px;
             line-height: 20px;
-            text-align: center;
             color: $White;
             mix-blend-mode: normal;
             opacity: 0.4;
@@ -510,6 +510,7 @@
                 outline: none;
                 border: none;
                 background: $RaisinBlack url(../assets/icons/SendEmailIcon-Modified.svg) right no-repeat;
+                background-origin: content-box;
             }
             p {
                 font-weight: 700;
@@ -522,7 +523,6 @@
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 20px;
-                text-align: center;
                 color: $White;
                 mix-blend-mode: normal;
                 opacity: 0.4;
@@ -644,6 +644,7 @@
                 outline: none;
                 border: none;
                 background: $RaisinBlack url(../assets/icons/SendEmailIcon-Modified.svg) right no-repeat;
+                background-origin: content-box;
             }
             p {
                 font-weight: 700;
@@ -656,7 +657,6 @@
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 20px;
-                text-align: center;
                 color: $White;
                 mix-blend-mode: normal;
                 opacity: 0.4;
@@ -761,6 +761,7 @@
                 outline: none;
                 border: none;
                 background: $RaisinBlack url(../assets/icons/SendEmailIcon-Modified.svg) right no-repeat;
+                background-origin: content-box;
             }
             p {
                 font-weight: 700;
