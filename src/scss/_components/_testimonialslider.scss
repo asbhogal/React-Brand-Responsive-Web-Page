@@ -1,5 +1,9 @@
 @use "../_partials/variables" as *;
 
+.TestimonialSlider {
+    padding: 0 150px;
+}
+
 .TestimonialCard {
     display: flex;
     flex-direction: column;
@@ -32,6 +36,7 @@
     .TestimonialBottomSection {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         .SocialIcons {
             display: flex;
             gap: 16px;
