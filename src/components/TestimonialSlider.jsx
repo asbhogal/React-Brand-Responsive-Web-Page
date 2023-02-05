@@ -18,6 +18,12 @@ const TestimonialSlider = () => {
                 },
                 1024: {
                     slidesPerView: 2
+                },
+                744: {
+                    slidesPerView: 2
+                },
+                375: {
+                    slidesPerView: 1
                 }
             }}
             spaceBetween={ 50 }
