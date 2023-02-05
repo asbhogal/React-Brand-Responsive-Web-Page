@@ -54,6 +54,10 @@ module.exports = {
                 },
             },
             {
+                test: /swiper\.esm\.js/,
+                sideEffects: false
+            },
+            {
                 test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
                 type: "asset/resource",
             },
