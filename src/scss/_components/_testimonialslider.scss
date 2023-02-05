@@ -1,7 +1,25 @@
 @use "../_partials/variables" as *;
 
 .TestimonialSlider {
-    padding: 0 150px;
+    padding: 0 150px !important;
+}
+
+.swiper-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-pagination-bullet {
+    opacity: 1;
+    height: 20px;
+    width: 20px;
+    &:first-child, &:last-child {
+        background-color: $AntiFlashWhite;
+    }
+}
+
+.swiper-pagination-bullet-active {
+    background-color: $Black;
 }
 
 .TestimonialCard {

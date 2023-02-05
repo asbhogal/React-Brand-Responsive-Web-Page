@@ -17,10 +17,11 @@ const TestimonialSlider = () => {
                     slidesPerView: 3
                 },
                 1024: {
-                    slidesPerView: 2
+                    slidesPerView: 3
                 },
                 744: {
-                    slidesPerView: 2
+                    slidesPerView: 2,
+                    spaceBetween: 16
                 },
                 375: {
                     slidesPerView: 1

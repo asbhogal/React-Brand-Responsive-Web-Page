@@ -4,6 +4,12 @@
 /****** WIDE - 1440px+ ******/
 
 @media only screen and (1441px <= width) {
+
+    .swiper {
+        padding: 0 165px;
+        width: 1110px;
+    }
+
     .SummaryContent {
         .SummaryContentList {
             padding: 64px 165px;
@@ -175,6 +181,11 @@
 /****** DESKTOP - 1025PX -> 1440px ******/
 
 @media only screen and (1025px <= width <= 1440px) {
+
+    .swiper {
+        padding: 60px 150px;
+    }
+
     .SummaryContent {
         .SummaryContentList {
             padding: 64px 150px;
@@ -346,6 +357,11 @@
 /****** TABLET (LARGE) - 745px --> 1024px ******/
 
 @media only screen and (745px <= width <= 1024px) {
+
+    .swiper {
+        padding: 60px 0;
+    }
+
     .TopSection {
         flex-direction: column;
         padding: 32px;
@@ -518,6 +534,11 @@
 /****** TABLET (SMALL) - 376px --> 744px ******/
 
 @media only screen and (376px <= width <= 744px) {
+
+    .swiper {
+        padding: 60px 24px;
+    }
+
     .TopSection {
         flex-direction: column;
         padding: 32px;
@@ -764,6 +785,11 @@
 /****** MOBILE - 0px -> 375px ******/
 
 @media only screen and (width <= 375px) {
+
+    .swiper {
+        padding: 60px 24px;
+    }
+
     .HeroSection {
         display: flex;
         flex-direction: column;
