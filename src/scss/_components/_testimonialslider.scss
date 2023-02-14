@@ -18,6 +18,11 @@
     }
 }
 
+.swiper-slide{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
 .swiper-pagination-bullet-active {
     background-color: $Black;
 }
