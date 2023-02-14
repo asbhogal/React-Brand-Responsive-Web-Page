@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, FreeMode, Pagination, A11y } from 'swiper';
+import { Autoplay, FreeMode, Pagination, Thumbs, A11y } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -9,7 +9,7 @@ import data from "../js/data";
 const TestimonialSlider = () => {
     return (
         <Swiper
-            modules={[Autoplay, FreeMode, Pagination, A11y]}
+            modules={ [Autoplay, FreeMode, Pagination, Thumbs, A11y] }
             spaceBetween={ 50 }
             pagination={{ clickable: true }}
             autoplay={ true }
@@ -25,7 +25,6 @@ const TestimonialSlider = () => {
                 },
                 744: {
                     slidesPerView: 2,
-                    spaceBetween: 16
                 },
                 375: {
                     slidesPerView: 1
