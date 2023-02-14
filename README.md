@@ -4,7 +4,7 @@
 
 ![](https://api.checklyhq.com/v1/badges/checks/b40b36ea-d9c0-4c40-ad73-dd34d37849fb?style=for-the-badge&theme=dark) ![](https://api.checklyhq.com/v1/badges/checks/b40b36ea-d9c0-4c40-ad73-dd34d37849fb?style=for-the-badge&theme=dark&responseTime=true) <br><br> ![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/React-Brand-Responsive-Web-Page/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/React-Brand-Responsive-Web-Page?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/React-Brand-Responsive-Web-Page?color=blueviolet&style=for-the-badge&labelColor=000)
 
-![Project-Cover](https://github.com/asbhogal/React-Brand-Responsive-Web-Page/blob/main/src/assets/images/GitHub%20Repo%20REAMDE%20Image%20-%20Brand%20Responsive%20Web%20Page.png?raw=true)
+![Project-Cover](https://github.com/asbhogal/React-Brand-Responsive-Web-Page/blob/main/src/assets/images/GitHub%20Repo%20README%20Image%20-%20Brand%20Responsive%20Web%20Page.png?raw=true)
 
 </div>
 
