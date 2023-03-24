@@ -714,6 +714,9 @@
 }
 
 @media only screen and (width <= 600px) {
+    .HeroCTASection > p {
+        text-align: center;
+    }
     .Footer {
         background-color: $Black;
         color: $White;
@@ -828,6 +831,7 @@
                             line-height: 28px;
                             padding-top: 16px;
                             padding-bottom: 24px;
+                            text-align: center;
                         }
                     }
                 }
